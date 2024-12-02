@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- ========== css files ========== -->
+    <link rel="stylesheet" href="./css_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./css_files/main.css">
+    
+</head>
+<body class="d-flex justify-content-center align-items-center">
+    <div class="login-container container mt-5">
+        <div class="login-box p-5 text-center">
+            <header class="text-center text-color mb-5 ">
+                <h1>Smart Login System</h1>
+            </header>
+    
+            <form> 
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="newName" placeholder="Enter Your Name">
+                  </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="newEmail" placeholder="Enter Your E-Mail">
+                  </div>
+                  <div class="mb-3">
+                    <input type="password" class="form-control" id="newPass" placeholder="Enter Password">
+                  </div>
+                  <p id="successSignupMessage" class="text-success mb-5 fs-5 d-none">Success</p>
+                  <p id="requeredSignupError" class="text-danger mb-5 d-none">All inputs is required</p>
+                  <p id="esistError" class="text-danger mb-5 d-none">email already exists</p>
+                  <p id="errorMessageSignup" class="text-danger mb-5 d-none">incorrect email or password</p>
+                  <button type="button" class="signupBtn btn btn-outline-info text-center w-100">Sign Up</button>
+            </form>
+    
+            <p class="text-center mt-2 text-white fw-medium">Don’t have an account? &nbsp;<a href="./index.html" class="text-white text-decoration-none">SignIn</a> </p>
+        </div>
+    
+    </div>
+
+    <script src="./js_files/index.js"></script>
+    <script src="./js_files/bootstrap.min.js"></script>
+</body>
+</html>

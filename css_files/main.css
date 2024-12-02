@@ -1,0 +1,72 @@
+
+:root{
+    --text-color: rgb(23, 162, 184);
+    --main-color: #24353f;
+}
+
+body{
+    background-color: var(--main-color);
+}
+.text-color{
+    color: var(--text-color);
+}
+
+.login-box{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    margin: 0 190px;
+}
+.form-control {
+    background-color: var(--main-color);
+    color: #fff;
+}
+::placeholder {
+    color: #dee2e6 !important;  
+}
+.form-control:focus {
+    background-color: var(--main-color);
+    color: #fff;
+}
+.btn-outline-info {
+    --bs-btn-border-color:var(--text-color);
+    --bs-btn-color: var(var(--text-color))
+}
+.btn:hover { 
+    background-color: var(--text-color);
+    color: #fff;
+    border: none;
+}
+.login-box a:hover{
+    text-decoration: underline !important;
+}
+.text-success {
+    color: rgb(19, 195, 60)  !important;
+}
+
+.bg-body-tertiary {
+    background-color: var(--main-color) !important;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.navbar-brand {
+    color: #fff;
+}
+.navbar-brand:hover{
+    color: #fff;
+}
+.btn-outline-success {
+    --bs-btn-border-color: #ffc107;
+    --bs-btn-color: rgba(255, 255, 255, 0.55);
+}
+nav .btn:hover {
+    background-color: #ffc107;
+    --bs-btn-border-color: #ffc107;
+}
+.welcome-box .inner{
+    padding: 50px 190px;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.welcome-box .inner h1{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--text-color);
+}
